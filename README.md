@@ -1,4 +1,4 @@
-# Company-Profile-Bootstrap-5
+# Company Profile Bootstrap 5
 ## _Sebuah website company profile sederhana dengan Bootstrap_
 
 ## Fitur
