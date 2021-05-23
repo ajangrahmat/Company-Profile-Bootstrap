@@ -17,6 +17,6 @@ Berikut adalah sumber dari teknologi dan komponen yang saya gunakan:
 - [Gambar Team](https://bootsnipp.com/snippets/nNoMz) - Sumber Gambar Team
 - [JS Value From Input](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_text_value) - Koding JS untuk mengambil data dari Form input
 
-## Video
+## Video Proses Pembuatan
 https://www.youtube.com/watch?v=MR5qUd6MYLI
 
