@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>IT Tech</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">IT Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#layanan">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+
+    <!-- HERO -->
+    <div class="container-fluid bg-light">
+
+        <div class="container p-5 bg-light">
+            <div class="row">
+                <div class="col-md">
+                    <p class="h1">Selamat Datang di IT Tech</p>
+                    <p>Kami menyediakan jasa pembuatan website, aplikasi mobile, IoT, dan juga aplikasi Dekstop.</p>
+                    <a class="btn btn-primary mt-5" href="#contact">Hubungi Kami</a>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="gambar/hero.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LAYANAN -->
+    <div id="layanan" class="container-fluid bg-secondary">
+        <div class="container p-5">
+            <p class="h3 text-white mt-3 mb-5">Layanan</p>
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card p-5">
+                        <div class="card-body">
+                            <h5 class="card-title">Website</h5>
+                            <p class="card-text">Kami melayani pembuatan Website Responsive dengan teknologi terbaru, dan juga menyediakan Hosting dan Domainnya.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card p-5">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile</h5>
+                            <p class="card-text">Kami melayani pembuatan Applikasi Android dan juga IOS, yang bisa di koneksikan dengan Website Perusahaan Kamu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card p-5">
+                        <div class="card-body">
+                            <h5 class="card-title">Dekstop</h5>
+                            <p class="card-text">Kami melayani pembuatan Applikasi Dekstop yang bisa berjalan di berbagai Sistem Operasi seperti Windows, Mac OS, dan Linux.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- TEAM -->
+    <div id="team" class="container-fluid bg-light">
+        <div class="container p-5">
+            <p class="h3 text-dark mt-3 mb-5">Our Team</p>
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card p-5">
+                        <img class="img-fluid rounded-pill" src="gambar/team1.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Ajang Rahmat</h5>
+                            <p class="card-text">Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card p-5">
+                        <img class="img-fluid rounded-pill" src="gambar/team2.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Asep Wanda Komara</h5>
+                            <p class="card-text">Mobile App device</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card p-5">
+                        <img class="img-fluid rounded-pill" src="gambar/team3.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Ade Rahayu</h5>
+                            <p class="card-text">General Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="container-fluid bg-light">
+        <div class="container p-5">
+            <p class="h3 text-dark mt-3 mb-5">Contact</p>
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">Nama: </label>
+                        <input class="form-control" type="text" id="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email: </label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Isi Pesan</label>
+                        <textarea class="form-control" rows="3" id="isi"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="button" onclick="myFunction()">Kirim Pesan</button>
+                    <p id="demo"></p>
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("nama");
+                            var nama = x.value;
+                            var y = document.getElementById("email");
+                            var email = y.value;
+                            var z = document.getElementById("isi");
+                            var isi = z.value;
+                            if (x) {
+                                var pesan = "https://api.whatsapp.com/send/?phone=6281287931296&text=";
+                                pesan += "Nama: " + nama + "%0";
+                                pesan += "Whatsapp: " + email + "%0";
+                                pesan += "Isi Pesan: " + isi + "%0";
+                                window.open("https://api.whatsapp.com/send/?phone=6281287931296&text=" + pesan);
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center bg-secondary">
+            <p class="text-white py-3 bg-secondary">2021 Copyright IT Tech</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
