@@ -18,7 +18,5 @@ Berikut adalah sumber dari teknologi dan komponen yang saya gunakan:
 - [JS Value From Input](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_text_value) - Koding JS untuk mengambil data dari Form input
 
 ## Video
-:::youtube[https://www.youtube.com/watch?v=MR5qUd6MYLI]
-OPTIONAL_TITLE_OF_VIDEO
-:::
+https://www.youtube.com/watch?v=MR5qUd6MYLI
 
